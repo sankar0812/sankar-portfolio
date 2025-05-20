@@ -172,48 +172,48 @@ const experiences = [
 ];
 
 const projects = [
-  {
-    id: "project-1",
-    name: "AWS Academy Foundation Graduate ",
-    description: "View my verified achievement from Amazon Web Services (AWS).",
-    image: foundation,
-    repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20230804-28-luyiiy.pdf",
-  },
-  {
-    id: "project-2",
-    name: "AWS Certified Cloud Practitioner",
-    description:
-      "AWS Academy Graduate issued by  Amazon Web Services Training and Certification.",
-    image: practitioner,
-    repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf",
-  },
-  {
-    id: "project-3",
-    name: "Azure",
-    description: "Create a virtual machine and deploy a Web Server",
-    image: azure,
-    repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/Azure.pdf",
-  },
-  {
-    id: "project-4",
-    name: "Deloitte",
-    description:
-      "Technology Consulting Virtual Internship",
-    image: deloitte,
-    repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/FqFtWwQzNxJ8Qsh5H_Deloitte_P9vz2x4Mcp37hehcd_completion_certificate.pdf",
-  },
-  {
-    id: "project-5",
-    name: "AWS Academy Foundation Graduate ",
-    description: "View my verified achievement from Amazon Web Services (AWS).",
-    image: foundation,
-    repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20230804-28-luyiiy.pdf",
-  },
+  // {
+  //   id: "project-1",
+  //   name: "AWS Academy Foundation Graduate ",
+  //   description: "View my verified achievement from Amazon Web Services (AWS).",
+  //   image: foundation,
+  //   repo: "#",
+  //   demo: "https://manp1209.s3.ap-south-1.amazonaws.com/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20230804-28-luyiiy.pdf",
+  // },
+  // {
+  //   id: "project-2",
+  //   name: "AWS Certified Cloud Practitioner",
+  //   description:
+  //     "AWS Academy Graduate issued by  Amazon Web Services Training and Certification.",
+  //   image: practitioner,
+  //   repo: "#",
+  //   demo: "https://manp1209.s3.ap-south-1.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf",
+  // },
+  // {
+  //   id: "project-3",
+  //   name: "Azure",
+  //   description: "Create a virtual machine and deploy a Web Server",
+  //   image: azure,
+  //   repo: "#",
+  //   demo: "https://manp1209.s3.ap-south-1.amazonaws.com/Azure.pdf",
+  // },
+  // {
+  //   id: "project-4",
+  //   name: "Deloitte",
+  //   description:
+  //     "Technology Consulting Virtual Internship",
+  //   image: deloitte,
+  //   repo: "#",
+  //   demo: "https://manp1209.s3.ap-south-1.amazonaws.com/FqFtWwQzNxJ8Qsh5H_Deloitte_P9vz2x4Mcp37hehcd_completion_certificate.pdf",
+  // },
+  // {
+  //   id: "project-5",
+  //   name: "AWS Academy Foundation Graduate ",
+  //   description: "View my verified achievement from Amazon Web Services (AWS).",
+  //   image: foundation,
+  //   repo: "#",
+  //   demo: "https://manp1209.s3.ap-south-1.amazonaws.com/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20230804-28-luyiiy.pdf",
+  // },
 ];
 
 export { services, technologies, experiences, projects };

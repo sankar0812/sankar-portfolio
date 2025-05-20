@@ -120,49 +120,138 @@ const CertificateCard = ({
 
 const Certificates = () => {
   const [active, setActive] = useState("project-2");
-
+  
   return (
-    <div className="-mt-[6rem]">
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies </p>
-        <h2 className={`${styles.sectionHeadTextLight}`}>Certificates.</h2>
+  <div className="-mt-[6rem]">
+    <motion.div variants={textVariant()}>
+      <p className={`${styles.sectionSubText}`}>Case Studies </p>
+      <h2 className={`${styles.sectionHeadTextLight}`}>Projects</h2>
+    </motion.div>
+
+    <div className="w-full flex flex-col gap-8">
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}   
+        className="mt-4 text-taupe text-[18px] max-w-5xl leading-[30px]"
+      >
+        <span className="font-bold">Key Projects:</span> As a dedicated DevOps engineer with 
+        2 years of hands-on experience, I’ve contributed to a variety of impactful projects focused on automation, 
+        scalability, and reliability. From building low-code platforms to optimizing CI/CD pipelines and enhancing 
+        observability in Kubernetes environments, my work reflects a strong commitment to delivering efficient and 
+        production-ready solutions.
+      </motion.p>
+
+      <motion.div variants={fadeIn("", "", 0.15, 1)} className="text-taupe text-[18px] max-w-3xl leading-[30px]">
+        <p className="font-bold text-lg mb-2">E-Commerce Web Application</p>
+        <ul className="list-disc pl-5 space-y-2">
+          <li>
+            Developed a full-stack eCommerce platform with a ReactJS frontend and Java Spring Boot backend.
+          </li>
+          <li>
+            Implemented user authentication, product catalog, shopping cart, order management, and admin dashboard.
+          </li>
+          <li>
+            Integrated MySQL for relational data storage and ensured robust performance with optimized queries and indexing.
+          </li>
+          <li>
+             Automated build and deployment pipelines using Jenkins (CI) and ArgoCD (GitOps-based CD).
+          </li>
+          <li>
+            Used RESTful APIs for frontend-backend communication and Dockerized the application and deployed it on 
+            Kubernetes clusters for high availability and scalability.
+          </li>
+        </ul>
       </motion.div>
 
-      <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
-        >
-          <span className="font-semibold">Certifications:</span> As a seasoned DevOps professional with
-          over a 1.5 - 2 years of experience, I proudly showcase my achievements,
-          including AWS certifications, on my portfolio site. These
-          certifications reflect my expertise in cloud technologies and further
-          validate my commitment to delivering top-notch solutions in the
-          ever-evolving DevOps landscape.
-        </motion.p>
-      </div>
-
-      <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
-      >
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {projects.map((project, index) => (
-            <CertificateCard
-              key={project.id}
-              index={index}
-              {...project}
-              active={active}
-              handleClick={setActive}
-            />
-          ))}
-        </div>
+      <motion.div variants={fadeIn("", "", 0.2, 1)} className="text-taupe text-[18px] max-w-3xl leading-[30px]">
+        <p className="font-bold text-lg mb-2">TORUS - Low Code Platform</p>
+        <ul className="list-disc pl-5 space-y-2">
+          <li>
+            Designed and developed a robust low-code platform using NestJS, NextJS, React Flow, React Native,
+            Redis, PostgreSQL, and MongoDB to enable rapid and flexible application development.
+          </li>
+          <li>
+            Deployed the platform in Kubernetes environments (on-premises & cloud) using Jenkins for CI and ArgoCD
+            for GitOps-based CD.
+          </li>
+          <li>
+            Ensured high availability and scalability with Docker, Kong API Gateway, Linkerd (service mesh), and
+            Emissary Ingress for secure, efficient traffic routing and load balancing.
+          </li>
+          <li>
+            Implemented robust security and observability using SonarQube, Trivy, OWASP ZAP, Prometheus, and Grafana.
+          </li>
+        </ul>
       </motion.div>
     </div>
-  );
-};
+  </div>
+);
+
+   
+  // return (
+  //   <div className="-mt-[6rem]">
+  //     <motion.div variants={textVariant()}>
+  //       <p className={`${styles.sectionSubText} `}>Case Studies </p>
+  //       <h2 className={`${styles.sectionHeadTextLight}`}>Projects</h2>
+  //     </motion.div>
+
+  //     <div className="w-full flex">
+  //       <motion.p
+  //         variants={fadeIn("", "", 0.1, 1)}
+  //         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
+  //       >
+  //         <span className="font-semibold">Key Projects:</span> As a dedicated DevOps engineer with 
+  //         1.5–2 years of hands-on experience, I’ve contributed to a variety of impactful projects focused on automation, 
+  //         scalability, and reliability. From building low-code platforms to optimizing CI/CD pipelines and enhancing 
+  //         observability in Kubernetes environments, my work reflects a strong commitment to delivering efficient and 
+  //         production-ready solutions.
+  //       </motion.p>
+
+  //       <motion.p
+  //       variants={fadeIn("", "", 0.2, 1)}
+  //       className="text-taupe text-[18px] max-w-3xl leading-[30px]"
+  //     >
+  //       <p className="font-bold text-lg mb-2">TORUS - Low Code Platform</p>
+  //       <ul className="list-disc pl-5 space-y-2">
+  //         <li>
+  //           Designed and developed a robust low-code platform using NestJS, NextJS, React Flow, React Native,
+  //           Redis, PostgreSQL, and MongoDB to enable rapid and flexible application development.
+  //         </li>
+  //         <li>
+  //           Deployed the platform in Kubernetes environments (on-premises & cloud) using Jenkins for CI and ArgoCD
+  //           for GitOps-based CD.
+  //         </li>
+  //         <li>
+  //           Ensured high availability and scalability with Docker, Kong API Gateway, Linkerd (service mesh), and
+  //           Emissary Ingress for secure, efficient traffic routing and load balancing.
+  //         </li>
+  //         <li>
+  //           Implemented robust security and observability using SonarQube, Trivy, OWASP ZAP, Prometheus, and Grafana.
+  //         </li>
+  //       </ul>
+  //     </motion.p>
+  //     </div>
+
+//       <motion.div
+//         variants={staggerContainer}
+//         initial="hidden"
+//         whileInView="show"
+//         viewport={{ once: false, amount: 0.25 }}
+//         className={`${styles.innerWidth} mx-auto flex flex-col`}
+//       >
+//         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+//           {projects.map((project, index) => (
+//             <CertificateCard
+//               key={project.id}
+//               index={index}
+//               {...project}
+//               active={active}
+//               handleClick={setActive}
+//             />
+//           ))}
+//         </div>
+//       </motion.div>
+//     </div>
+//   );
+ };
 
 export default SectionWrapper(Certificates, "projects");
