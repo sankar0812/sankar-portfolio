@@ -34,7 +34,7 @@ import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 import kubernetes from './tech/kubernetes-icon.png';
 import aws from './tech/aws.png';
-import jenkins from './tech/jenkins8.png';
+import jenkins from './tech/Jenkins8.png';
 import sonarqube from './tech/SonarQube.png';
 import terraform from './tech/terraform.png';
 import prometheus from './tech/prometheus.png';
