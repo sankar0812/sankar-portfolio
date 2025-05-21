@@ -39,9 +39,9 @@ import sonarqube from './tech/SonarQube.png';
 import terraform from './tech/terraform1.png';
 import prometheus from './tech/prometheus.png';
 import gitlab from './tech/gitlab-icon.png';
-import mongodb from './tech/mongodb1.png';
+import mongodb from './tech/MongoDB1.png';
 import ansible from './tech/ansible.svg';
-import argocd from './tech/argocd1.png';
+import argocd from './tech/Argocd1.png';
 
 
 import coverhunt from './company/coverhunt.png';
