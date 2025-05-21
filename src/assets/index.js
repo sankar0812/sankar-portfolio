@@ -36,7 +36,7 @@ import kubernetes from './tech/kubernetes-icon.png';
 import aws from './tech/aws.png';
 import jenkins from './tech/Jenkins8.png';
 import sonarqube from './tech/SonarQube.png';
-import terraform from './tech/terraform.png';
+import terraform from './tech/terraform1.png';
 import prometheus from './tech/prometheus.png';
 import gitlab from './tech/gitlab-icon.png';
 import mongodb from './tech/mongodb1.png';
