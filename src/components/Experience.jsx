@@ -103,7 +103,7 @@ const Experience = () => {
               ease-in-out uppercase"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1t6En-phAElqZVgWFXrEJ5b_EHHQfm-No/view?usp=drivesdk", //paste the link to your resume here
+                  "https://drive.google.com/file/d/1w-oDuOCIDbKaVveLKI_f96mwv9qJE2-y/view?usp=drivesdk", //paste the link to your resume here
                   "_blank"
                 )
               }
