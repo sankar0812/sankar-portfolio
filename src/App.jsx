@@ -8,6 +8,7 @@ import {
   Tech,
 } from './components';
 import Certificates from './components/Certificates';
+import Blog from './components/Blog';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         {/* <Projects /> */}
         <Certificates/>
 
+
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 
             rounded-tl-[150px] rounded-br-[150px]">
@@ -37,6 +39,9 @@ const App = () => {
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
             <Experience />
           </div>
+        </div>
+        <div className="bg-white dark:bg-[#121212] py-12 px-4">
+          <Blog />
         </div>
         <div className="relative z-0">
           <Contact />

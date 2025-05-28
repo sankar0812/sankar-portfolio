@@ -162,6 +162,18 @@ const experiences = [
     iconBg: '#333333',
     date: 'March 2023 - June 2023',
   },
+  // {
+  //   title: 'Secure File Upload Project',
+  //   company_name: 'Personal Project',
+  //   icon: kelhel,
+  //   iconBg: '#333333',
+  //   TechStack: 'React, NestJS, MongoDB, AWS S3, HashiCorp Vault',
+  //   date: 'Jan 2024 - Feb 2024',
+  //   description: `Built a web application that allows users to upload images, 
+  //     which are stored in MongoDB and AWS S3 using a React frontend and NestJS backend. 
+  //     Integrated HashiCorp Vault to securely manage and encrypt sensitive credentials and file metadata.`,
+  //   link: 'https://your-project-url.com', // Optional: if you want to link to it
+  // },
   {
     title: 'BE Civil',
     company_name: 'Scad College of Engineering & Technology',
